@@ -2,7 +2,7 @@
   "name": "@m6s/box",
   "version": "0.0.1",
   "description": "",
-  "main": "src/main.js",
+  "main": "build/main.js",
   "scripts": {
     "test": "gulp test",
     "build": "gulp build",
