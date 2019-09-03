@@ -1,0 +1,43 @@
+{
+  "name": "box-nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "dryClean": "gulp dryClean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mee6aas/box-ndoejs.git"
+  },
+  "author": "lesomnus",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mee6aas/box-ndoejs/issues"
+  },
+  "homepage": "https://github.com/mee6aas/box-ndoejs#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^7.0.1",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.9.1",
+    "grpc": "^1.23.3",
+    "tslib": "^1.10.0"
+  }
+}
