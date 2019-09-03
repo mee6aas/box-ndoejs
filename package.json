@@ -1,5 +1,5 @@
 {
-  "name": "box-nodejs",
+  "name": "@m6s/box-nodejs",
   "version": "0.0.1",
   "description": "",
   "main": "src/main.js",
